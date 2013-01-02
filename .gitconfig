@@ -1,6 +1,7 @@
 [core]
 	editor = emacs
 [alias]
+	fc = commit -a -m .
 	# From http://stackoverflow.com/questions/1057564/pretty-git-branch-graphs
 	lg = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(bold white)— %an%C(reset)' --abbrev-commit
 [user]
